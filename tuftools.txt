@@ -1,8 +1,12 @@
 the tuftools.sh
 file u will need to edit
-for your self if your
-on termux i would guess
+for your self
+i would guess
    
 os.system('cd')
 os.system('cd tuftools')
 os.system('python2 tuftools.py')
+
+but i dont know 
+you dont need the tuftools.sh 
+file anyway it just looks cooler
