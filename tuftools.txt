@@ -1,0 +1,8 @@
+the tuftools.sh
+file u will need to edit
+for your self if your
+on termux i would guess
+   
+cd
+cd tuftools
+python2 tuftools.py
