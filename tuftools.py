@@ -53,6 +53,9 @@ print R+"""
 """
 
 print G+"""
+
+(0) : exit tuftools
+
 (1) : tufhammer (Dos attack)
 
 (2) : tufscanner (Port scanners)
@@ -63,7 +66,7 @@ print G+"""
 
 """
 
-choice = raw_input('Choose a tool to install : ')
+choice = raw_input('Choose a tool : ')
 os.system('clear')
 if choice == "1": os.system('git clone https://github.com/unkn0wnh4ckr/tufhammer')
 
@@ -71,6 +74,8 @@ if choice == "2": os.system('git clone https://github.com/unkn0wnh4ckr/tufscanne
 
 if choice == "3": os.system('git clone https://github.com/unkn0wnh4ckr/webattack')
 
+if choice == "0": sys.exit()  
+  
 if choice == "4": os.system('cd ..')
 os.system('python tufdos.py')
 
